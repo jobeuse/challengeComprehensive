@@ -19,6 +19,7 @@ body{
 
   .logo img {
     width: 50px;
+      margin-top:20px;
      height:50px;
   }
   .container .logo h3{

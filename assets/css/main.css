@@ -1,0 +1,93 @@
+body{
+    background-color:#d6dff9;
+    justify-content:center;
+    text-align:center;
+    display:flex;
+  }
+  
+  .container { 
+    width:50%;
+    justify-content:Center;
+    content-align:center;
+  }
+  
+  .logo{
+    display: flex;
+  }
+
+  .logo img {
+    width: 50px;;
+  }
+  .container .logo h3{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+  }
+  .container .content_description{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom:40px;
+  
+  }
+  .content {
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .content .content_description {
+    font-size:19px;
+  }
+  
+  .content .content-form form{
+    display:flex;
+    flex-wrap:wrap; 
+    row-gap:10px;
+    column-gap:10px;
+    flex-direction :row;
+  }
+  .content .content-form form .input {
+  height: 40px;
+  width: 273px;
+  left: 5px;
+  top: 52px;
+  border-radius: 10px;
+  padding: 12px 25px 12px 25px;
+  border:1px solid gray;
+  
+  }
+  .location{
+    height: 40px;
+  width: 100%;
+  left: 5px;
+  top: 52px;
+  border-radius: 10px;
+  padding: 12px 25px 12px 25px;
+  border:1px solid gray;
+  }
+  .radio {
+    width:100%; 
+    text-align:center;
+  }
+  
+  .content .content-form form  button {
+    color:white;
+    height: 43px;
+    width: 273px;
+    left: 0px;
+    top: 219px;
+    border-radius: 10px;
+    padding: 12px 25px 12px 25px;
+    background: linear-gradient(0deg, #3461E2, #3461E2),
+  linear-gradient(0deg, #959595, #959595);
+    border:none;
+  
+  }
